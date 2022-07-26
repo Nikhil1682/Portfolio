@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    background-color: #f3f3f3;
+    font-family: 'Neue Montreal',sans-serif;
+}
+.hero{
+    height: 75px;
+    width: 100%;
+    background-color: #00308F;
+    
+}
+.image{
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: #ff3333;
+    height:60px;
+    width:63px;
+    border-radius: 50%;
+     
+}
+
+.logo{
+    padding-right: 50%;
+    color: white;
+    font-family: 'Neue Montreal',sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #00308F;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 3%;
+    padding-left: 1%;
+    background-color: #00308F;
+
+}
+
+nav ul{
+    background-color: #00308F;
+}
+
+nav ul li{
+    color: white;
+    background-color: #00308F;
+    display: inline-block;
+    list-style-type: none ;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Neue Montreal',sans-serif;
+    cursor: pointer;
+}
+
+nav .logo:hover{
+    color: orangered;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: #00308F;
+
+}
+nav ul li a:hover{
+    color: orangered;
+}
+
+
+.intro{
+    color: #00308F;
+    padding-top: 100px;
+    padding-left: 440px;
+    font-size: 30px;
+
+}
+
+
+.intro1{
+
+    color: #00308F;
+    font-weight: bold;
+    font-size: large;
+
+
+}
+
+
+.passion{
+    color: #ff3333;
+}
+
+.btn{
+    height: 45px;
+    border-radius: 10px;
+    background-color: #ff3333;
+    color: ivory;
+    font-weight: bold;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #00308F;
+    color: white;
+}
+.btn a:hover{
+    background-color: #00308F;
+}
+.bakshi{
+    position: relative;
+    background-color: #f3f3f3;
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    /* padding-left: 800px;
+    padding-bottom: 400px; */
+
+    
+
+    
+}
+
+.int{
+    padding-left: 11%;
+    padding-right: 12%;
+    display: flex;
+    padding-top: 200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    /* min-height: 400px;
+    min-width: 400px; */
+    
+}
+
+.about h1{
+    color: #ff3333;
+    font-weight: bold;
+}
+.about p{
+    color: #00308F;
+    font-weight: bold;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 80px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.about{
+    padding-top: 200px;
+
+}
+
+.cardcont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 70px;
+
+}
+
+
+.card{
+  border-radius: 10px;  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 35%;
+  height: 200px;
+  padding-top: 15px;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: #ff3333;
+
+}
+
+.card h2{
+    color: #00308F;
+    background-color: transparent;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.card ul{
+    background-color: #ff3333;
+}
+.card ul li{
+    background-color: #ff3333;
+}
+  
+.card ul li{
+    padding-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+.skillbar{
+    height: 650px;
+    width: 74%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 200px;
+    border-radius: 10px;  
+    box-shadow: 4px 8px 8px 0px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-left:180px;
+    background-color: #a4bce8;
+    
+
+}
+.skillbar:hover{
+    box-shadow: 8px 10px 10px 8px rgba(0,0,0,0.2);
+}
+
+.skillbar h2{
+    color: #ff3333;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: transparent;
+}
+.skillbarcont{
+    width: 100%;
+    background-color: #ddd;
+
+
+}
+
+.skillbar p{
+    background-color: transparent;
+    color: white;
+}
+
+.skillsbar{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {width: 90%; background-color: #7cfc00;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.cl {width: 70%; background-color: orange;}
+.cn{width: 60%; background-color: purple;}
+
+/*section3*/
+
+.mywork{
+    background-color: #f18282;
+    height: 580px;
+}
+
+
+.workdone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    background-color: transparent;
+
+
+}
+
+.workcard{
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  
+  }
+
+.workcard:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+  .workcard a{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 125px;
+    color: #ff3333;
+    font-weight: bold;
+    display:inline-block;
+  }
+
+
+  .mywork h2{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 220px;
+    background-color: transparent;
+  }
+
+
+  .imgg{
+    height: 250px;
+    width: 410px;
+  }
+
+
+/*section*/
+input{
+    text-align: center;
+}
+
+.contact{
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 540px;
+    margin-right: 50px;
+    background-color: #fa6868;
+    padding-top: 40px;
+  
+}
+
+.contact:hover{
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cont1{
+    text-align: center;
+    color: #ff3333;
+    margin-top: 200px;
+}
+
+.contact label{
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    padding-left: 170px;
+    padding-right: 25px;
+    line-height: 25px;
+    font-size: large;
+}
+
+.contact input{
+    
+    margin-left: 95px;
+    margin-bottom: 25px;
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+}
+
+.contact textarea{
+    margin-left: 90px;
+    width: 240px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+}
+
+.subbtn{
+    margin-top: 25px;
+    color: #ff3333;
+    font-weight: bold;
+    font-size: large;
+}
+
+.subbtn:hover{
+    color: white;
+    background-color: #00308F;
+}
+
+
+.foot{
+    width: 100%;
+    height: 100px;
+    background-color: #ff3333;
+    margin-top: 180px;
+    text-align: center;
+    padding-top: 10px;
+    
+    
+}
+
+.foot i {
+    background-color: transparent;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.foot p{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+
+.fhead{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 28px;
+    margin-right: 8px;
+}
